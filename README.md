@@ -19,13 +19,6 @@ Adjusts difficulty based on the number of alive human survivors on the server.
 ### What makes the Difficulty Adjustment System viable in Left 4 Dead/Left 4 Dead 2?
 The plugin can adjust the intensity of gameplays depending on how many players are on the server. This can result in challenging and fun experiences for everyone.
 
-### When Does the Difficulty Change?
-
-1. If the requirement for Easy is met or if the alive human survivor count is less than the requirements for Normal, it changes to Easy.
-2. If the requirement for Normal is met or if the alive human survivor count is less than the requirements for Advanced, it changes to Normal.
-3. If the requirement for Advanced is met or if the alive human survivor count is less than the requirement for Expert, it changes to Advanced.
-4. If the requirement for Expert is met or if the alive human survivor count is greater than the requirements for Expert, it changes to Expert.
-
 ### Requirements
 Ammunition Variation was developed against SourceMod 1.8+.
 
@@ -130,6 +123,12 @@ das_disabledgamemodes "coop" // The plugin is disabled in Campaign mode.
 
 Outcome: The plugin works only in Versus mode.
 ```
+
+2. When does the difficulty change?
+- If the requirement for Easy is met or if the alive human survivor count is less than the requirements for Normal, it changes to Easy.
+- If the requirement for Normal is met or if the alive human survivor count is less than the requirements for Advanced, it changes to Normal.
+- If the requirement for Advanced is met or if the alive human survivor count is less than the requirement for Expert, it changes to Advanced.
+- If the requirement for Expert is met or if the alive human survivor count is greater than the requirements for Expert, it changes to Expert.
 
 ## Credits
 
