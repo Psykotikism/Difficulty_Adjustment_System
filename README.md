@@ -99,6 +99,7 @@ das_normaldifficulty "2"
 > If you have any questions that aren't addressed below, feel free to message me or post on this [thread](https://forums.alliedmods.net/showthread.php?t=303117).
 
 1. How do I enable/disable the plugin in certain game modes?
+
 You must specify the game modes in the das_enabledgamemodes and das_disabledgamemodes convars.
 
 Here are some scenarios and their outcomes:
