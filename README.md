@@ -103,6 +103,7 @@ das_normaldifficulty "2"
 You must specify the game modes in the das_enabledgamemodes and das_disabledgamemodes convars.
 
 Here are some scenarios and their outcomes:
+
 - Scenario 1
 ```
 das_enabledgamemodes "" // The plugin is enabled in all game modes.
@@ -126,6 +127,7 @@ Outcome: The plugin works only in Versus mode.
 ```
 
 2. When does the difficulty change?
+
 - If the requirement for Easy is met or if the alive human survivor count is less than the requirements for Normal, it changes to Easy.
 - If the requirement for Normal is met or if the alive human survivor count is less than the requirements for Advanced, it changes to Normal.
 - If the requirement for Advanced is met or if the alive human survivor count is less than the requirement for Expert, it changes to Advanced.

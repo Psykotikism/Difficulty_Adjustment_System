@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 12.5 (June 16, 2018)
+
+1. Bug fixes:
+
+- Fixed the das_enabledgamemodes and das_disabledgamemodes convars not working properly.
+
 ## Version 12.0 (June 1, 2018)
 
 1. Added support for difficulty-based configs.
