@@ -2,7 +2,7 @@
 #include <sourcemod>
 #pragma semicolon 1
 #pragma newdecls required
-#define DAS_VERSION "12.5"
+#define DAS_VERSION "13.0"
 #define DAS_URL "https://forums.alliedmods.net/showthread.php?t=303117"
 
 public Plugin myinfo =
@@ -284,26 +284,26 @@ stock bool bIsPlayerIdle(int client)
 stock bool bIsSystemValid()
 {
 	char sGameMode[32];
-	char sConVarModes[2049];
-	char sModeName[64][32];
+	char sConVarModes[32];
 	g_cvDASGameMode.GetString(sGameMode, sizeof(sGameMode));
+	Format(sGameMode, sizeof(sGameMode), ",%s,", sGameMode);
 	g_cvDASEnabledGameModes.GetString(sConVarModes, sizeof(sConVarModes));
-	ExplodeString(sConVarModes, ",", sModeName, sizeof(sModeName), sizeof(sModeName[]));
-	for (int iMode = 0; iMode < sizeof(sModeName); iMode++)
+	if (strcmp(sConVarModes, ""))
 	{
-		if (StrContains(sGameMode, sModeName[iMode], false) != -1 && sModeName[iMode][0] != '\0')
+		Format(sConVarModes, sizeof(sConVarModes), ",%s,", sConVarModes);
+		if (StrContains(sConVarModes, sGameMode, false) == -1)
 		{
-			return true;
+			return false;
 		}
 	}
 	g_cvDASDisabledGameModes.GetString(sConVarModes, sizeof(sConVarModes));
-	ExplodeString(sConVarModes, ",", sModeName, sizeof(sModeName), sizeof(sModeName[]));
-	for (int iMode = 0; iMode < sizeof(sModeName); iMode++)
+	if (strcmp(sConVarModes, ""))
 	{
-		if (StrContains(sGameMode, sModeName[iMode], false) == -1 && sModeName[iMode][0] != '\0')
+		Format(sConVarModes, sizeof(sConVarModes), ",%s,", sConVarModes);
+		if (StrContains(sConVarModes, sGameMode, false) != -1)
 		{
-			return true;
+			return false;
 		}
 	}
-	return false;
+	return true;
 }

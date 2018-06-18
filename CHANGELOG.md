@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 13.0 (June 18, 2018)
+
+1. Bug fixes:
+
+- Fixed the das_enabledgamemodes and das_disabledgamemodes convars not working properly.
+
 ## Version 12.5 (June 16, 2018)
 
 1. Bug fixes:
