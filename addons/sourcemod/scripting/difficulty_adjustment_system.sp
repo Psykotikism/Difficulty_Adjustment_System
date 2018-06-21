@@ -2,7 +2,7 @@
 #include <sourcemod>
 #pragma semicolon 1
 #pragma newdecls required
-#define DAS_VERSION "13.0"
+#define DAS_VERSION "13.5"
 #define DAS_URL "https://forums.alliedmods.net/showthread.php?t=303117"
 
 public Plugin myinfo =
@@ -19,7 +19,6 @@ bool g_bEasy;
 bool g_bExpert;
 bool g_bNormal;
 bool g_bTimerOn;
-char g_sGameName[32];
 ConVar g_cvDASAdvanced;
 ConVar g_cvDASAnnounceDifficulty;
 ConVar g_cvDASDifficulty;
@@ -33,9 +32,10 @@ ConVar g_cvDASNormal;
 
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
 {
-	GetGameFolderName(g_sGameName, sizeof(g_sGameName));
-	if (!StrEqual(g_sGameName, "left4dead", false) && !StrEqual(g_sGameName, "left4dead2", false))
+	EngineVersion evEngine = GetEngineVersion();
+	if (evEngine != Engine_Left4Dead && evEngine != Engine_Left4Dead2)
 	{
+		strcopy(error, err_max, "The Difficulty Adjustment System only supports Left 4 Dead 1 & 2.");
 		return APLRes_SilentFailure;
 	}
 	return APLRes_Success;
