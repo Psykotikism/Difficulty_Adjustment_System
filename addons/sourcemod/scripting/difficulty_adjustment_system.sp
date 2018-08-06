@@ -47,7 +47,7 @@ public void OnPluginStart()
 
 public void OnMapStart()
 {
-	for (int iNumber = 0; iNumber <= 4; iNumber++)
+	for (int iNumber = 0; iNumber <= 3; iNumber++)
 	{
 		g_bDASBools[iNumber] = false;
 	}
@@ -94,7 +94,7 @@ public void OnConfigsExecuted()
 
 public void OnMapEnd()
 {
-	for (int iNumber = 0; iNumber <= 4; iNumber++)
+	for (int iNumber = 0; iNumber <= 3; iNumber++)
 	{
 		g_bDASBools[iNumber] = false;
 	}
