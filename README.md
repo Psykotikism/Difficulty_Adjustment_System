@@ -3,13 +3,13 @@ Phoenix0001 suggested a plugin like this so Tak (Chaosxk) wrote a short one. Unf
 
 ## License
 Difficulty Adjustment System: a L4D/L4D2 SourceMod Plugin
-Copyright (C) 2017  Alfred "Crasher_3637/Psyk0tik" Llagas
+Copyright (C) 2017 Alfred "Crasher_3637/Psyk0tik" Llagas
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
 
 ## About
 Adjusts difficulty based on the number of alive human survivors on the server.
@@ -135,18 +135,25 @@ Outcome: The plugin works only in Versus mode.
 
 ## Credits
 
-Tak (Chaosxk) - For the original code found [here](https://forums.alliedmods.net/showpost.php?p=2518197&postcount=4).
-Lux - For revising the original code found [here](https://forums.alliedmods.net/showpost.php?p=2561468&postcount=9).
-phoenix0001 - For the idea, original post [here](https://forums.alliedmods.net/showthread.php?t=297009) and new post [here](https://forums.alliedmods.net/showthread.php?t=302919).
-Silvers (Silvershot) - For the code that allows users to enable/disable the plugin in certain game modes.
-cravenge - For the new code (3/28/2018).
-Visual77 and MasterMind420 - For helpful input.
-Mi. Cura - For help in testing.
+**Tak (Chaosxk)** - For the original code found [here](https://forums.alliedmods.net/showpost.php?p=2518197&postcount=4).
+
+**Lux** - For revising the original code found [here](https://forums.alliedmods.net/showpost.php?p=2561468&postcount=9).
+
+**phoenix0001** - For the idea, original post [here](https://forums.alliedmods.net/showthread.php?t=297009) and new post [here](https://forums.alliedmods.net/showthread.php?t=302919).
+
+**Silvers (Silvershot)** - For the code that allows users to enable/disable the plugin in certain game modes.
+
+**cravenge** - For the new code (3/28/2018).
+
+**Visual77 and MasterMind420** - For helpful input.
+
+**Mi.Cura** - For help in testing.
 
 # Contact Me
 If you wish to contact me for any questions, concerns, suggestions, or criticism, I can be found here:
 - [AlliedModders Forum](https://forums.alliedmods.net/member.php?u=181166)
 - [Steam](https://steamcommunity.com/profiles/76561198056665335)
+- Psyk0tik#7757 on Discord
 
 # 3rd-Party Revisions Notice
 If you would like to share your own revisions of this plugin, please rename the files! I do not want to create confusion for end-users and it will avoid conflict and negative feedback on the official versions of my work. If you choose to keep the same file names for your revisions, it will cause users to assume that the official versions are the source of any problems your revisions may have. This is to protect you (the reviser) and me (the developer)! Thank you!

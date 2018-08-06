@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 14.0 (August 6, 2018)
+
+1. Changes:
+
+- Optimized code a bit.
+
 ## Version 13.5 (June 21, 2018)
 
 1. Changes:
