@@ -1,7 +1,7 @@
 # Difficulty Adjustment System
 
 ## PayPal
-[Donate to my PayPal if you appreciate my work](https://paypal.me/Psyk0tikism?locale.x=en_US)
+[Donate to Motivate](https://paypal.me/Psyk0tikism?locale.x=en_US)
 
 ## Introduction
 Phoenix0001 suggested a plugin like this so Tak (Chaosxk) wrote a short one. Unfortunately, it wasn't properly checking for the amount of players on the server after every map transition. Lux then revised the code but the plugin still didn't work reliably. I then decided to revise his revision and made the "Difficulty Adjustment System" (D.A.S).
