@@ -8,7 +8,7 @@ Phoenix0001 suggested a plugin like this so Tak (Chaosxk) wrote a short one. Unf
 
 ## License
 Difficulty Adjustment System: a L4D/L4D2 SourceMod Plugin
-Copyright (C) 2017 Alfred "Crasher_3637/Psyk0tik" Llagas
+Copyright (C) 2017 Alfred "Psyk0tik" Llagas
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
@@ -33,8 +33,8 @@ Ammunition Variation was developed against SourceMod 1.8+.
 3. Place all the contents into their respective folders.
 4. If prompted to replace or merge anything, click yes.
 5. Load up the Difficulty Adjustment System.
-  - Type ```sm_rcon sm plugins load difficulty_adjustment_system``` in console.
-  - OR restart the server.
+	- Type ```sm_rcon sm plugins load difficulty_adjustment_system``` in console.
+	- OR restart the server.
 6. Customize Difficulty Adjustment System (Config file generated on first load).
 
 ### Uninstalling/Upgrading to Newer Versions
@@ -46,8 +46,8 @@ Ammunition Variation was developed against SourceMod 1.8+.
 ### Disabling
 1. Move difficulty_adjustment_system.smx to plugins/disabled folder.
 2. Unload Difficulty Adjustment System.
-  - Type ```sm_rcon sm plugins unload difficulty_adjustment_system``` in console.
-  - OR restart the server.
+	- Type ```sm_rcon sm plugins unload difficulty_adjustment_system``` in console.
+	- OR restart the server.
 
 ## Configuration Variables (ConVars/CVars)
 ```
@@ -156,14 +156,9 @@ Outcome: The plugin works only in Versus mode.
 
 # Contact Me
 If you wish to contact me for any questions, concerns, suggestions, or criticism, I can be found here:
-- [AlliedModders Forum](https://forums.alliedmods.net/member.php?u=181166)
-- [Steam](https://steamcommunity.com/profiles/76561198056665335)
-- Psyk0tik#7757 on Discord
+- [AlliedModders Forum](https://forums.alliedmods.net/member.php?u=181166) (Use this for just reporting bugs/issues or giving suggestions/ideas.)
+- [Steam](https://steamcommunity.com/profiles/76561198056665335) (Use this for getting to know me or wanting to be friends with me.)
+- `Psyk0tik#6898` on Discord (Use this for pitching in new/better code.)
 
 # 3rd-Party Revisions Notice
 If you would like to share your own revisions of this plugin, please rename the files! I do not want to create confusion for end-users and it will avoid conflict and negative feedback on the official versions of my work. If you choose to keep the same file names for your revisions, it will cause users to assume that the official versions are the source of any problems your revisions may have. This is to protect you (the reviser) and me (the developer)! Thank you!
-
-# Donate
-- [Donate to SourceMod](https://www.sourcemod.net/donate.php)
-
-Thank you very much! :)
