@@ -33,7 +33,7 @@ Ammunition Variation was developed against SourceMod 1.8+.
 3. Place all the contents into their respective folders.
 4. If prompted to replace or merge anything, click yes.
 5. Load up the Difficulty Adjustment System.
-	- Type ```sm_rcon sm plugins load difficulty_adjustment_system``` in console.
+	- Type `sm_rcon sm plugins load difficulty_adjustment_system` in console.
 	- OR restart the server.
 6. Customize Difficulty Adjustment System (Config file generated on first load).
 
@@ -46,7 +46,7 @@ Ammunition Variation was developed against SourceMod 1.8+.
 ### Disabling
 1. Move difficulty_adjustment_system.smx to plugins/disabled folder.
 2. Unload Difficulty Adjustment System.
-	- Type ```sm_rcon sm plugins unload difficulty_adjustment_system``` in console.
+	- Type `sm_rcon sm plugins unload difficulty_adjustment_system` in console.
 	- OR restart the server.
 
 ## Configuration Variables (ConVars/CVars)
